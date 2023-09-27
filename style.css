@@ -1,49 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+
+* {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
-}
-
-
-body{
+    box-sizing: border-box;
+  }
+  body {
     background-color: lightgray;
-}
-
-nav{
+  }
+  nav {
     background-color: white;
-    /* margin-top: 10px; */
-    height: 50px;
-    margin: 10px;
+    margin: 1%;
+    height: 7vh;
     border-radius: 6px;
-}
-
-nav ul li{
+  }
+  nav ul li {
     display: inline-block;
-    /* padding: 15px 150px */
-    padding-top: 15px;
-    font-family: 'Roboto', sans-serif;
-    
-
-}
-
-#devlinks{
-    padding-left: 20px;
+    /* padding: 15px 150px; */
+    padding-top: 1%;
+    font-family: "Roboto", sans-serif;
+  }
+  #devlinks {
+    padding-left: 2%;
     font-weight: bold;
+    font-size: 18px;
+    padding-top: 1%;
+  }
+  #icon1 {
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1%;
+  }
+  #icon2 {
+    color: rgb(114, 112, 112);
+  }
+  #links {
+    padding-left: 32%;
+    color: rgb(114, 112, 112);
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(114, 112, 112);
+  }
+  #profile {
+    padding-left: 6%;
+    margin-left: 2%;
+    margin-right: 4px;
+
 }
 
+    #icon3 {
+        color: rgb(114, 112, 112);
 
-#link{
-    padding-left: 600px;
-    
-   
-}
 
-#profile{
-    padding-left: 50px;
 }
-
-#preview{
-    padding-left:580px ;
-}
+  
+  #preview {
+    /* padding-left: 30%; */
+    border: 2px solid blueviolet;
+    padding: 0.4%;
+    border-radius: 3px;
+    margin-left: ;
+    padding-left: 10px ;
+    padding-right: 10px;
+  }
