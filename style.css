@@ -11,6 +11,8 @@ nav {
   margin: 1%;
   height: 7vh;
   border-radius: 6px;
+  position: relative;
+  top: 5%;
 }
 nav ul li {
   display: inline-block;
@@ -85,79 +87,260 @@ div:hover #icon2 {
   padding: 0.4%;
   margin-left: 29%;
   padding: 0.6% 1.3%;
-  padding-bottom: 0.4%;
+  /* padding-bottom: 0.3%; */
 }
 
-/*----------------------------------------------------------------   */
-
+/* -------------------------------------------------- */
 .left{
-  border: 2px solid black;
-  width: 35%;
-  height: 85vh;
-  margin-left: 1%;
+  /* border: 1px solid black; */
   border-radius: 6px;
   background-color: white;
+  width: 35%;
+  
+  height: 87vh;
+  margin-left: 1%;
+  display: inline-block;
+  position: absolute;
+  
+
+  
 }
+
 
 .phone{
   border: 1px solid grey;
-  width: 50%;
+  border-radius:35px ;
+  width: 45%;
   height: 75%;
   margin: auto;
   margin-top: 14%;
-  border-radius:35px;
-  background-color: white;
-}
-.phone2{
-  border: 1px solid grey;
-  width: 95%;
-  height: 95%;
-  margin: 4% auto ;
-  /* margin-top: 3%; */
-  border-radius:35px;
-  background-color: white;
 }
 
+.phone2{
+  border: 1px solid grey;
+  border-radius:35px ;
+  width: 95%;
+  height: 95%;
+  margin: 4% auto;
+  
+}
+
+
 .photo{
-  /* border: 1px solid lightgrey; */
+  /* border: 1px solid grey; */
+  
   width: 35%;
   height: 20%;
-  margin: 10% auto ;
-  border-radius:50%;
+  margin: 10% auto;
+  border-radius: 50%;
   background-color: rgba(211, 211, 211, 0.505);
+
 }
+
 .photo2{
-  /* border: 1px solid rgba(211, 211, 211, 0.868); */
+  /* border: 1px solid grey; */
+  
   width: 65%;
   height: 3%;
   margin: 10% auto 3%;
-  border-radius:5px;
+  border-radius: 5px;
   background-color: rgba(211, 211, 211, 0.505);
+
 }
+
+
 .photo3{
-  /* border: 1px solid rgba(211, 211, 211, 0.868); */
+  /* border: 1px solid grey; */
+  
   width: 40%;
   height: 2%;
-  margin: 4% auto ;
-  border-radius:5px;
+  margin: 4% auto;
+  border-radius: 5px;
   background-color: rgba(211, 211, 211, 0.505);
+
 }
-/* Diğerlerinde de kullanılacak(youtube..) */
+/* diğeerlerinde de kullanılacak */
+
 .github{
-  border: 1px solid rgba(211, 211, 211, 0.868);
+    border: 1px solid grey;
+  
+    width: 85%;
+    height: 8%;
+    margin: 10% auto;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    font-size: 12px;
+    padding-top: 4%;
+  
+
+}
+
+#arrow{
+  padding-left: 51%;
+}
+#arrow1{
+  padding-left: 46%;
+}
+
+#arrow2{
+  padding-left: 47%;
+}
+#space, #space2, #space3{
+  padding-left: 8%;
+}
+.yt{
+  border: 1px solid grey;
+  
   width: 85%;
   height: 8%;
-  margin: 10% auto ;
-  border-radius:5px;
-  background-color:black;
+  margin: -8% auto;
+  border-radius: 5px;
+  background-color:red;
   color: white;
   font-size: 12px;
   padding-top: 4%;
+
 }
-/* Diğerlerine de aynı özellik */
-#arrow{
-  padding-left: 55%;
+
+.linkedin{
+  border: 1px solid grey;
+  
+  width: 85%;
+  height: 8%;
+  margin: 10% auto;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  padding-top: 4%;
+
 }
-#space{
-  padding-left: 8%;
+
+.bos{
+  /* border: 1px solid grey; */
+  
+  width: 85%;
+  height: 8%;
+  margin: -8% auto;
+  border-radius: 5px;
+  background-color:rgba(211, 211, 211, 0.505);
+  color: white;
+  font-size: 12px;
+  padding-top: 4%;
+
 }
+.bos2{
+  /* border: 1px solid grey; */
+  
+  width: 85%;
+  height: 8%;
+  margin: 10% auto;
+  border-radius: 5px;
+  background-color:rgba(211, 211, 211, 0.505);
+  color: white;
+  font-size: 12px;
+  padding-top: 4%;
+
+}
+
+/* ------------------------------------------------------- */
+
+.right{
+  
+  border-radius: 6px;
+  background-color: white;
+  width: 61.8%;
+  height: 87vh;
+  margin-bottom: -15.1%;
+  margin-left: 1%;
+  display: inline-block;
+  position: absolute;
+  left: 36.2%;
+  
+
+}
+
+.right h1{
+  font-family: "Roboto", sans-serif;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+.right p{
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  padding-left: 5%;
+  padding-top: 1.5%;
+}
+
+.btn1{
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  padding: 1% 0;
+  border-radius: 8px;
+  background-color: white;
+  color: rgba(137, 43, 226, 0.767);
+  font-weight: bold;
+  border: 2px solid rgba(137, 43, 226, 0.767);
+  text-shadow: 1px 0 1px;
+}
+
+.link1{
+  background-color: rgba(211, 211, 211, 0.505);
+  margin: 2% 5%;
+  height: 26%;
+  border-radius: 8px;
+}
+.link1 span{
+  padding-left: 82%;
+  font-weight: lighter;
+
+}
+
+.link1 p{
+  padding-left: 2%;
+  color: rgb(114, 112, 112);
+  font-weight: bold;
+  
+}
+.label1{
+  margin-left: 2%;
+  display: block;
+  margin-top: 1%;
+  font-size: 14px;
+  color:rgb(114, 112, 112) ;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+.select{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: -2%;
+  display: block;
+  height: 20%;
+  border-radius: 6px;
+  border-color: rgb(114, 112, 112);
+}
+
+.label2{
+  margin-left: 2%;
+  display: block;
+  margin-top: 1%;
+  font-size: 14px;
+  color:rgb(114, 112, 112) ;
+
+  
+}
+
+#label2{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 0;
+  display: block;
+  height: 20%;
+  border-radius: 6px;
+  border: 1px solid rgb(114, 112, 112);
+}
+
